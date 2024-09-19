@@ -102,11 +102,20 @@ Let's compare these three model variants on the basis of evaluation metrics disc
 
 ### Validation accuracy and Validation loss:
 
+![acc-lossplots-im3](https://github.com/user-attachments/assets/a302aa3e-dc8e-4f58-9424-f5d6bd9a3b82)
 
+* Conclusion and actions from test results:
+○ Base model: Validation loss, accuracy are affected by overfitting.
+○ Tune1 model: Overfitting is slightly mitigated.
+○ Tune2 model: Substantial improvement can be noticed.
 
-### Confusion Matrix and Classification Reports.
+### Confusion Matrix and Classification Reports:
 
+![all-cm-cr](https://github.com/user-attachments/assets/f54ff19d-a9c1-47fc-be76-deff72102844)
 
+### Images as classified by Tune2 model:
+
+![testds66 67](https://github.com/user-attachments/assets/a2755711-aef8-4489-8930-1f749bec19d6)
 
 
 
