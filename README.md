@@ -78,7 +78,6 @@ CNN model is formed with Conv2D, MaxPooling2D, Flatten and Dense layers. More la
 
 ### Confusion matrix and classification report:
  Since, this is unsupervised (classification) model, Precision, Recall, and Accuracy values from the confusion matrix and classificaton report are used to properly assess the performance of the model.
- Functions **plotaccloss** and **createcm_classrpt** are prepared to get consistent results across all the testing and all the time.
 
 # Model Testing and Findings:
 
