@@ -97,7 +97,20 @@ Next level of hyperparamater tuning is applied in Tune2 model.
 
 With these enhancements, performance of the model improved drastically.
 
-### Performance comparison of three models:
+## Performance comparison of three models:
+Let's compare these three model variants on the basis of evaluation metrics discussed above.
+
+### Validation accuracy and Validation loss:
+
+
+
+### Confusion Matrix and Classification Reports.
+
+
+
+
+
+
 
 
 
