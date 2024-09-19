@@ -82,4 +82,17 @@ CNN model is formed with Conv2D, MaxPooling2D, Flatten and Dense layers. More la
 
 # Model Testing and Findings:
 
+As the Base model was tested with the image dataset, siginficant impact of overfitting on the validation accuracy and validation loss is cleary seen.
+
+Thus, Base model is improved in 2 stages: Tune1: to include 1 DropOut layer and earaly stopping.
+This mitigated the overfitting half way through.
+
+Next level of hyperparamater tuning is applied in Tune2 model.
+* 0.1 validation split gives only 54 images for Training. Slightly reduce validation split to 0.05, 57 Training images.
+* Add 4 image augmentations - Flip, Zoom, Translation(Shift) and Rotation, to further increase Training images.
+* Increase the number of epochs to give more learning time for the model.
+* Reduce image size (h x w) to 200x200 to reduce impact of any visual noise in the images.
+* Add DropOuts per block also to reduce the overfitting.
+* Retain the EarlyStopping.
+
 
