@@ -96,3 +96,8 @@ Next level of hyperparamater tuning is applied in Tune2 model.
 * Retain the EarlyStopping.
 
 With these enhancements, performance of the model improved drastically.
+
+### Performance comparison of three models:
+
+
+
