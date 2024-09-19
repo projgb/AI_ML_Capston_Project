@@ -95,4 +95,4 @@ Next level of hyperparamater tuning is applied in Tune2 model.
 * Add DropOuts per block also to reduce the overfitting.
 * Retain the EarlyStopping.
 
-
+With these enhancements, performance of the model improved drastically.
