@@ -104,19 +104,36 @@ Let's compare these three model variants on the basis of evaluation metrics disc
 ![acc-lossplots-im3](https://github.com/user-attachments/assets/a302aa3e-dc8e-4f58-9424-f5d6bd9a3b82)
 
 * Conclusion and actions from test results:
-- Base model: Validation loss, accuracy are affected by overfitting.
-- Tune1 model: Overfitting is slightly mitigated.
-- Tune2 model: Substantial improvement can be noticed.
+ - Base model: Validation loss, accuracy are affected by overfitting.
+ - Tune1 model: Overfitting is slightly mitigated.
+ - Tune2 model: Substantial improvement can be noticed.
 
 ### Confusion Matrix and Classification Reports:
 
 ![all-cm-cr](https://github.com/user-attachments/assets/f54ff19d-a9c1-47fc-be76-deff72102844)
+
+Confusion matrix and Classification report reflect the improvements observed through the Validation accuracy and loss measures.
 
 ### Images as classified by Tune2 model:
 
 ![testds66 67](https://github.com/user-attachments/assets/a2755711-aef8-4489-8930-1f749bec19d6)
 
 
+# Findings and Recommendations:
+
+Project provided deeper insights into the image classification models, datasets and techniques to implement a system using them.
+
+**a. Findings:**
+* Perform thorough study of dataset to understand the variations, outliers and issues in the dataset.
+* Form a strategy to draw a sample group from bigger dataset and split the dataset into training and validation batches.
+* Begin with, analyse and enahance a representative model configuration.
+* Assess the results at each stage and tune the hyperparameters to eliminate the gaps and improve the performance.
+
+**b. Recommendations:**
+* Utilize the existing datasets to start with and augment this with image augmentations and our own additional data.
+* Study and review various competitions and study notebooks available on Kaggle, Colab and elsewhere.
+* Join Discord channels for various research.
+* Try to utilize existing pretrained models available on kaggle for further fine tuning and improving the solutions.
 
 
 
