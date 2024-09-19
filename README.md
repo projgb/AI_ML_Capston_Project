@@ -68,6 +68,8 @@ CNN model is formed with Conv2D, MaxPooling2D, Flatten and Dense layers. More la
   - Image Classification Notebook : https://github.com/tensorflow/docs/blob/master/site/en/tutorials/images/classification.ipynb
   - **Image Dataset : http://www.vision.caltech.edu/visipedia/CUB-200-2011.html**
 
+**Source Code:**
+Jupyter notebook **image_classification_w_cnn.ipynb** contains the source code for this project.
 
 # Model evaluation Strategy:
 
