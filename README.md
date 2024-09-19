@@ -104,9 +104,9 @@ Let's compare these three model variants on the basis of evaluation metrics disc
 ![acc-lossplots-im3](https://github.com/user-attachments/assets/a302aa3e-dc8e-4f58-9424-f5d6bd9a3b82)
 
 * Conclusion and actions from test results:
-○ Base model: Validation loss, accuracy are affected by overfitting.
-○ Tune1 model: Overfitting is slightly mitigated.
-○ Tune2 model: Substantial improvement can be noticed.
+- Base model: Validation loss, accuracy are affected by overfitting.
+- Tune1 model: Overfitting is slightly mitigated.
+- Tune2 model: Substantial improvement can be noticed.
 
 ### Confusion Matrix and Classification Reports:
 
